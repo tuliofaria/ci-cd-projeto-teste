@@ -22,7 +22,7 @@ describe('Pages', () => {
     expect(res.send.calledOnce).to.be.true
     expect(res.send.calledWith('Page1')).to.be.true
   })
-  it('should calc properly - divisivel', () => {
+  it('should calc properly - divisivel ', () => {
     const req = {
       params: {
         num1: 10,
