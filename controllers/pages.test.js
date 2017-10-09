@@ -63,6 +63,6 @@ describe('Pages', () => {
     }
     pages.calc(req, res)
     expect(res.send.calledOnce).to.be.true
-    expect(res.send.calledWith('NaoDivisivel')).to.be.true
+    expect(res.send.calledWith('DivisaoZero')).to.be.true
   })
 })
