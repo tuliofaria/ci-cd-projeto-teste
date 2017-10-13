@@ -11,7 +11,7 @@ describe('Pages', () => {
     }
     pages.home(req, res)
     expect(res.send.calledOnce).to.be.true
-    expect(res.send.calledWith('CI/CD Project - dev')).to.be.true
+    expect(res.send.calledWith('CI/CD Project - dev - jenkins')).to.be.true
   })
   it('should return page1', () => {
     const req = {}
